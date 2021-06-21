@@ -1,0 +1,181 @@
+
+  
+
+body {
+  margin: 0;
+}
+.home {
+  font-family: "Open Sans" sans-serif;
+  font-weight:300;
+  height: 100%;
+  background: #649cd3;
+  box-sizing: border-box;
+  
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+    
+}
+.img1, .img2, .img3 {
+  width: 33%;
+}
+
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 24px;
+  text-align: center; 
+}
+.fwh-slide--bg-seagreen{
+  height: 100%;
+  background: #71c4ae;
+ 
+}
+.fwh-slide--bg-burntyellow{
+  height: 100%;
+  background: #f9c314;
+  
+}
+
+.fwh-slide p {
+  margin:0;
+}
+
+.footer-slide--address {
+  height: 200px;
+  background: #71c4ae;
+  box-sizing: border-box;
+}
+.footer-slide--parking {
+  height: 100px;
+  background: #cfda2c;
+  box-sizing: border-box;
+}
+
+.footer-slide--support {
+  height: 100px;
+  background: #f9c314;
+  box-sizing: border-box;
+}
+
+.footer-slide--email-signup {
+  height: 100px;
+  background: #71c4ae;
+  box-sizing: border-box;
+}
+
+.footer-slide--social-icons {
+  height: 100px;
+  background: #649cd3;
+  box-sizing: border-box;
+}
+
+ ul {
+  margin: 30;
+  padding: 30;
+  list-style: none;
+}
+   nav li {
+   display: inline-block;
+margin: 0 10px;
+padding-top:20px;
+  } 
+.footer-slide  {
+  margin:0;
+}
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+ 
+  
+}
+
+
+.nonprofimg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  
+ 
+}
+
+
+.nonprofimg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.nonprofimg3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 99%;
+  margin: 0 auto;
+}
+header {
+  background: #71c4ae;
+}
+
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+.logo{
+  float: inline-start;
+  padding-left:35px;
+}
+.button{
+  float: right;
+  padding-top:35px;
+  padding-right: 35px;
+}
+.flexbox-container{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 25%;
+  
+}
+nav{
+  float: right;
+  padding-right: 140px;
+  padding-bottom: 35px;
+}
+
+ nav ul {
+  margin: 30;
+  padding: 30;
+  list-style: none;
+}
+   nav li {
+   display: inline-block;
+margin: 0 10px;
+padding-top:20px;
+  } 
+ @media only screen and (max-width:600){
+   
+ } 
+
